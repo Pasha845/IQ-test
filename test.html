@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Главная страница">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Тест на определение IQ</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container flex">
+      <svg class="header__burger js-burger" aria-label="Бургер меню" width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16H24V13.3333H0V16ZM0 9.33333H24V6.66667H0V9.33333ZM0 0V2.66667H24V0H0Z" fill="#696969"/>
+      </svg>
+      <img src="img/header__default-foto.png" alt="Default image" width="48" height="47">
+      <h2 class="header__title">ТЕСТ НА ОПРЕДЕЛЕНИЕ IQ</h2>
+      <nav class="header__cube js-menu">
+        <svg class="header__menu-exit js-exit" aria-label="Закрыть меню" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M28 2.82L25.18 0L14 11.18L2.82 0L0 2.82L11.18 14L0 25.18L2.82 28L14 16.82L25.18 28L28 25.18L16.82 14L28 2.82Z" fill="#FFC700"/>
+        </svg>
+        <ul class="header__submenu list-reset flex" id="header__cube">
+          <li class="header__link-margin">
+            <a class="container-link" href="index.html" aria-label="Главная">ГЛАВНАЯ</a>
+          </li>
+          <li class="header__link-margin">
+            <a class="container-link" href="end.html" aria-label="Информация о тесте">ИНФОРМАЦИЯ О ТЕСТЕ</a>
+          </li>
+          <li class="header__link-margin">
+            <a class="container-link" href="test.html" aria-label="Пройти тест">ПРОЙТИ ТЕСТ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div id="test"></div>
+  <script src="js/burger-menu.js"></script>
+  <script src="js/route.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/test.js"></script>
+</body>
+</html>
