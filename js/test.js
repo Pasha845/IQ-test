@@ -14,7 +14,8 @@
             new Route('9', '9.html'),
             new Route('10', '10.html'),
             new Route('11', '11.html'),
-            new Route('12', '12.html')
+            new Route('12', '12.html'),
+            new Route('end', 'end.html')
         ]);
     }
     init();
